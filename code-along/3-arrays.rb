@@ -26,3 +26,6 @@ puts favorite_foods
 
 # There are lots of fun things you can do with arrays:
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+puts favorite_foods.size
+puts favorite_foods.count
