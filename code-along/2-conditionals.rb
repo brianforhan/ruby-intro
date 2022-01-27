@@ -37,8 +37,26 @@ end
 
 # Elsif Conditional Logic
 
+your_team_score = 2
+other_team_score = 2
+
+if your_team_score > other_team_score
+        puts "you win"
+elsif your_team_score == other_team_score
+        puts "tie"
+else 
+        puts "you lose"
+end 
 
 
 # Combining Expressions
 
+temp = 60
 
+if temp >= 65 && temp <= 80
+    puts "perfect"
+end 
+
+if temp <= 65 || temp >= 80
+    puts "too hot or cold"
+end 
