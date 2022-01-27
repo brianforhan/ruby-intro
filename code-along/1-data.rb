@@ -33,8 +33,19 @@ a = 10
 b = 3
 puts a*b
 
+food = "tacos"
+quantity = 3
+puts food * quantity
+
 # Combine strings and variables
 
+first_name = "Boba"
+greeting = "Hello, + #{first_name}"
+puts greeting 
 
+puts " tacos #{3}"
 
 # String manipulation
+
+puts "Hello".reverse
+puts "Hello".length
