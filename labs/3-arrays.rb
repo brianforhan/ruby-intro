@@ -12,9 +12,11 @@
 # If the two lists contain the same item, only show it once!
 
 my_shopping_list = ["cheese", "milk", "oranges"]
-friends_shopping_list = ["beer", "cookies, "apple"]
+friends_shopping_list = ["beer", "cookies", "apple"]
 combined_list = my_shopping_list + friends_shopping_list 
-puts comined_list
+puts combined_list
+
+
 
 # HINTS
 # Learn to read the documentation!
