@@ -18,9 +18,11 @@ puts mixed_array
 puts favorite_foods[0]
 puts favorite_foods[1]
 
+
 # Add to the array
 
-
+favorite_foods.push("more tacos")
+puts favorite_foods
 
 # There are lots of fun things you can do with arrays:
 # https://ruby-doc.org/core-2.7.0/Array.html
