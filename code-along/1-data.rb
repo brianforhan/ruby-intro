@@ -19,12 +19,22 @@ puts 5.0 / 2.0
 
 # Strings
 
-
+puts "Hello, world"
 
 # Combine strings together
 
+puts "Tacos are " + "delish"
+puts "tacos" * 3
+puts "tacos" + 3.to_s
+
 # Variables
 
+a = 10
+b = 3
+puts a*b
+
 # Combine strings and variables
+
+
 
 # String manipulation
