@@ -4,9 +4,23 @@
 
 # Arrays are lists of things
 
+favorite_foods = ["tacos", "pizza", "ice cream"]
+puts favorite_foods
+
+numbers_array = [4,8,15,16,23,42]
+puts numbers_array
+
+mixed_array = [4,5,6,"tacos","xbox"]
+puts mixed_array
+
 # Accessing the array
 
+puts favorite_foods[0]
+puts favorite_foods[1]
+
 # Add to the array
+
+
 
 # There are lots of fun things you can do with arrays:
 # https://ruby-doc.org/core-2.7.0/Array.html

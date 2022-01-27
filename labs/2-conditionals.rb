@@ -18,9 +18,9 @@ dice_2 = rand(1..6)
 
 roll = dice_1 + dice_2
 
-if roll = 7 || 11
+if roll == 7 || roll == 11
     puts "You Win"
-ifelse roll = 2 || 3 || 12
+elsif roll == 2 || roll == 3 || roll == 12
     puts "You Lose"
 else 
     puts "The point is #{roll}"
